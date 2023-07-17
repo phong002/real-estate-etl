@@ -1,10 +1,10 @@
-# Real Estate ETL Project 
+# Real Estate ETL Project with AWS EC2, AWS RDS PostgreSQL, Apache Airflow
 ## Description 
 - The purpose of this project was to develop an automated, scalable extract, transform and load (ETL) pipeline to facilitate the end-to-end flow of data from its source into a database, allowing quick insights to be gained from up-to-date data sources.
 
 - Tools used: AWS EC2, AWS RDS PostgreSQL, Apache Airflow, Python, Tableau 
 
-Methodology:
+## Methodology
 
 - Project Setup: The first step in the methodology involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the web scraping and data processing tasks.
 
