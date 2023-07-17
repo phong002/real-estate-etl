@@ -7,6 +7,7 @@
 
 - Tools used: AWS EC2, AWS RDS PostgreSQL, Apache Airflow, Python, Tableau
 
+
 ## Methodology
 
 - **Project Setup**: The first step in the methodology involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the webscraping and data processing tasks.
@@ -20,6 +21,7 @@
 - **Data Loading**: The transformed data was loaded into the PostgreSQL database. This process involved connecting to the database from Python and inserting the cleaned and structured data into the appropriate table.
 
 - **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.  
+
  
 ## Things I learned to do
 ### AWS 
@@ -30,11 +32,10 @@
 - Transfer files into an EC2 instance using Secure Copy (SCP)
 ### Python
 - Webscrape data using BeautifulSoup
-- Transform data stored in Python data structures
+- Transform data stored within Python data structures
 - Connect to and perform database operations (insertion, updating, querying) with an RDS PostgreSQL database using psycopg2 
 ### Apache Airflow
 - Install Airflow and its dependencies into the AWS EC2 instance 
-- Define tasks using Airflow operators and setting up task dependencies
-- Define a Directed Acyclic Graph (DAG) in Airflow which contains a collection of tasks
-
-
+- Define tasks using Airflow operators (e.g. PythonOperator) and setting up task dependencies
+- Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
+- Configure scheduling options (e.g. execute every 24 hours) 
