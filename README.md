@@ -38,4 +38,4 @@
 - Install Airflow and its dependencies into the AWS EC2 instance 
 - Define tasks using Airflow operators (e.g. PythonOperator) and setting up task dependencies
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
-- Configure scheduling options (e.g. execute every 24 hours) 
+- Configure DAG scheduling options (e.g. to execute every 24 hours) 
