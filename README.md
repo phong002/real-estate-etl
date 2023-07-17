@@ -30,8 +30,9 @@
 - Transform data stored in Python data structures
 ### Apache Airflow
 - Install Airflow and its dependencies into the AWS EC2 instance 
-- Define a Directed Acyclic Graph (DAG) in Airflow which contains a collection of tasks
 - Define tasks using Airflow operators and setting up task dependencies
+- Define a Directed Acyclic Graph (DAG) in Airflow which contains a collection of tasks
+
 ### Misc
-- 
+- Communicate effectively with chatgpt :) 
 
