@@ -1,4 +1,4 @@
-# Real Estate ETL Project with AWS EC2, AWS RDS PostgreSQL, Apache Airflow
+# Real Estate ETL Project with AWS EC2, RDS PostgreSQL, Apache Airflow
 
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/5b971b67-7c4e-4f70-8c33-4d22de261d44)
 
