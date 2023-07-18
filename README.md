@@ -107,6 +107,10 @@ ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com:8080
 Tasks: 
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
 
+All tasks successfully executed:
+![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
+
+
 
 
 
