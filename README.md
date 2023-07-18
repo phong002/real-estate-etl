@@ -42,8 +42,9 @@
 - Configure DAG scheduling options (e.g. to execute every 24 hours) 
 
 ## Walkthrough 
+- Create EC2 and RDS PostgreSQL instance 
 
-SSH into EC2 instance from local directory 
+- SSH into EC2 instance from local directory 
 ```zsh
 etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
 ```
@@ -60,7 +61,7 @@ ubuntu@ip-172-31-34-219
 └── venv                               
 ```
 
-Set up Airflow webserver 
+- Start an Airflow webserver 
 ```shell
 (venv) ubuntu@ip-172-31-34-219:~$ airflow webserver
 
@@ -76,7 +77,32 @@ Timeout: 120
 Logfiles: - -
 Access Logformat: 
 =================================================================
+...
 ```
+
+- Using another terminal, start an Airflow scheduler
+```shell
+(venv) ubuntu@ip-172-31-34-219:~$ airflow scheduler
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2023-07-18 07:03:28 +0000] [1453] [INFO] Starting gunicorn 20.1.0
+[2023-07-18 07:03:28 +0000] [1453] [INFO] Listening at: http://[::]:8793 (1453)
+[2023-07-18 07:03:28 +0000] [1453] [INFO] Using worker: sync
+[2023-07-18 07:03:28,946] {scheduler_job.py:714} INFO - Starting the scheduler
+[2023-07-18 07:03:28,946] {scheduler_job.py:719} INFO - Processing each file at most -1 times
+[2023-07-18 07:03:28 +0000] [1454] [INFO] Booting worker with pid: 1454
+[2023-07-18 07:03:28,962] {executor_loader.py:107} INFO - Loaded executor: LocalExecutor
+...
+```
+
+Access Airflow UI by entering the instance's public endpoint followed with :8080 into a web browser 
+```
+ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com:8080
+```
+![image](https://github.com/phong002/webscrape-project/assets/47654096/e1413536-c95a-4a72-a79c-ad792fc085c4)
 
 
 
