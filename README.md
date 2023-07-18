@@ -37,5 +37,52 @@
 ### Apache Airflow
 - Install Airflow and its dependencies into the AWS EC2 instance 
 - Define tasks using Airflow operators (e.g. PythonOperator) and setting up task dependencies
+- Pass data between tasks using XCom (cross-communication) 
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
 - Configure DAG scheduling options (e.g. to execute every 24 hours) 
+
+## Walkthrough 
+
+SSH into EC2 instance from local directory 
+```zsh
+etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
+```
+
+EC2 instance directory: 
+```tree
+ubuntu@ip-172-31-34-219
+├── airflow       
+│   ├── dags
+│   │   └── real_estate_etl_dag.py
+│   ├── airflow.cfg        
+│   ├── airflow.db  
+│   └── ...  
+└── venv                               
+```
+
+Set up Airflow webserver 
+```shell
+(venv) ubuntu@ip-172-31-34-219:~$ airflow webserver
+
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================
+```
+
+
+
+
+
+
+
+
+
