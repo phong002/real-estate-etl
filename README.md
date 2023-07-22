@@ -26,6 +26,9 @@
 
 - **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.
 
+
+## At a glance
+- screenshots of notable parts of project
  
 ## Things I learned to do
 ### AWS 
