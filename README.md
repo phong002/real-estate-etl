@@ -7,7 +7,7 @@
 
 - Tools used: AWS EC2, AWS RDS PostgreSQL, Apache Airflow, Python, Tableau
 
-- Snapshot of Tableau dashboard: https://public.tableau.com/views/real-estate_16899622401130/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
+- [Snapshot of Tableau dashboard](https://public.tableau.com/views/real-estate_16899622401130/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 ## Methodology
