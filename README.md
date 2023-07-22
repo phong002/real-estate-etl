@@ -16,9 +16,11 @@
   
 - **Data Transformation**: After web scraping, the raw data was transformed in Python to convert it into a structured and usable format. Data transformation tasks included handling missing values, standardising data types and performing any necessary data manipulations to ensure consistency and accuracy.
   
-- **Database Setup**: An AWS RDS PostgreSQL database was created to serve as the repository for the webscraped real estate data. As an AWS-managed service, the RDS PostgreSQL database provides a reliable and scalable solution for storing structured data and enables efficient querying and analysis.
+- **Database Setup**: An AWS RDS PostgreSQL database was created to store the webscraped real estate data. As an AWS-managed service, the RDS PostgreSQL database provides a reliable and scalable solution for storing structured data and enables efficient querying and analysis.
 
 - **Data Loading**: The transformed data was loaded into the PostgreSQL database. This process involved connecting to the database from Python and inserting the cleaned and structured data into the appropriate table.
+
+- **Data Visualisation**: A connection with the RDS PostgreSQL database was setup in Tableau to create visualisations. 
 
 - **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.  
 
@@ -40,6 +42,12 @@
 - Pass data between tasks using XCom (cross-communication) 
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
 - Configure DAG scheduling options (e.g. to execute every 24 hours) 
+
+## Limitations 
+- webscraping instead of api
+  
+
+
 
 ## Walkthrough 
 - Create EC2 and RDS PostgreSQL instance 
@@ -63,7 +71,7 @@ ubuntu@ip-172-31-34-219
 
 - Start an Airflow webserver 
 ```shell
-(venv) ubuntu@ip-172-31-34-219:~$ airflow webserver
+(venv) ubuntu@ip-172-31-34-219:~$ airflow webserver -D 
 
   ____________       _____________
  ____    |__( )_________  __/__  /________      __
@@ -82,7 +90,7 @@ Access Logformat:
 
 - Using another terminal, start an Airflow scheduler
 ```shell
-(venv) ubuntu@ip-172-31-34-219:~$ airflow scheduler
+(venv) ubuntu@ip-172-31-34-219:~$ airflow scheduler -D
   ____________       _____________
  ____    |__( )_________  __/__  /________      __
 ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
@@ -109,6 +117,8 @@ Tasks:
 
 All tasks successfully executed:
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
+
+
 
 
 
