@@ -7,7 +7,7 @@
 
 - Tools used: AWS EC2, AWS RDS PostgreSQL, Apache Airflow, Python, Tableau
 
-- Snapshot of the dashboard: https://public.tableau.com/views/real-estate_16899622401130/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
+- Snapshot of Tableau dashboard: https://public.tableau.com/views/real-estate_16899622401130/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
 
 
 ## Methodology
@@ -116,7 +116,7 @@ ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com:8080
 ```
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/e1413536-c95a-4a72-a79c-ad792fc085c4)
 
-Tasks: 
+Airflow DAG consisting of 3 tasks: 
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
 
 All tasks successfully executed:
