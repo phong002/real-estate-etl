@@ -14,11 +14,6 @@
 
 - **Project Setup**: The first step involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the webscraping and data processing tasks.
 
-SSH into the EC2 instance: 
-```zsh
-etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
-```
-
 - **Web Scraping**: Using Python and its webscraping libraries (BeautifulSoup), rental listing data was extracted from rent.com.au. The web scraping process involved fetching web pages, parsing HTML content, and extracting relevant data, such as property locations, number of rooms, and prices.
   
 - **Data Transformation**: After web scraping, the raw data was transformed in Python to convert it into a structured and usable format. Data transformation tasks included handling missing values, standardising data types and performing any necessary data manipulations to ensure consistency and accuracy.
@@ -30,12 +25,6 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 - **Data Visualisation**: A connection with the RDS PostgreSQL database was setup in Tableau to create visualisations. 
 
 - **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.
-
-Airflow DAG consisting of 3 tasks: 
-![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
-
-All tasks successfully executed:
-![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
 
  
 ## Things I learned to do
@@ -64,7 +53,12 @@ All tasks successfully executed:
 
 
 ## Walkthrough 
-- Create EC2 and RDS PostgreSQL instance 
+- Create EC2 and RDS PostgreSQL instance
+  
+- SSH into the EC2 instance
+```zsh
+etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
+```
 
 
 EC2 instance directory: 
@@ -79,42 +73,11 @@ ubuntu@ip-172-31-34-219
 └── venv                               
 ```
 
-- Start an Airflow webserver 
-```shell
-(venv) ubuntu@ip-172-31-34-219:~$ airflow webserver -D 
+Airflow DAG consisting of 3 tasks: 
+![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
 
-  ____________       _____________
- ____    |__( )_________  __/__  /________      __
-____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
-___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
- _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
-Running the Gunicorn Server with:
-Workers: 4 sync
-Host: 0.0.0.0:8080
-Timeout: 120
-Logfiles: - -
-Access Logformat: 
-=================================================================
-...
-```
-
-- Using another terminal, start an Airflow scheduler
-```shell
-(venv) ubuntu@ip-172-31-34-219:~$ airflow scheduler -D
-  ____________       _____________
- ____    |__( )_________  __/__  /________      __
-____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
-___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
- _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
-[2023-07-18 07:03:28 +0000] [1453] [INFO] Starting gunicorn 20.1.0
-[2023-07-18 07:03:28 +0000] [1453] [INFO] Listening at: http://[::]:8793 (1453)
-[2023-07-18 07:03:28 +0000] [1453] [INFO] Using worker: sync
-[2023-07-18 07:03:28,946] {scheduler_job.py:714} INFO - Starting the scheduler
-[2023-07-18 07:03:28,946] {scheduler_job.py:719} INFO - Processing each file at most -1 times
-[2023-07-18 07:03:28 +0000] [1454] [INFO] Booting worker with pid: 1454
-[2023-07-18 07:03:28,962] {executor_loader.py:107} INFO - Loaded executor: LocalExecutor
-...
-```
+All tasks successfully executed:
+![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
 
 Access Airflow UI by entering the instance's public endpoint followed with :8080 into a web browser 
 ```
