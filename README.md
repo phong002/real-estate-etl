@@ -14,6 +14,11 @@
 
 - **Project Setup**: The first step involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the webscraping and data processing tasks.
 
+SSH into the EC2 instance: 
+```zsh
+etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
+```
+
 - **Web Scraping**: Using Python and its webscraping libraries (BeautifulSoup), rental listing data was extracted from rent.com.au. The web scraping process involved fetching web pages, parsing HTML content, and extracting relevant data, such as property locations, number of rooms, and prices.
   
 - **Data Transformation**: After web scraping, the raw data was transformed in Python to convert it into a structured and usable format. Data transformation tasks included handling missing values, standardising data types and performing any necessary data manipulations to ensure consistency and accuracy.
@@ -24,7 +29,13 @@
 
 - **Data Visualisation**: A connection with the RDS PostgreSQL database was setup in Tableau to create visualisations. 
 
-- **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.  
+- **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.
+
+Airflow DAG consisting of 3 tasks: 
+![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
+
+All tasks successfully executed:
+![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
 
  
 ## Things I learned to do
@@ -47,19 +58,14 @@
 - Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. starting at boot, restarting in case of failures)
 
 ## Limitations 
-- The process of extracting data from its source by webscraping is not ideal. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
-- 
-  
+- The process of extracting data by means of webscraping is not viable as a long-term solution. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
+
 
 
 
 ## Walkthrough 
 - Create EC2 and RDS PostgreSQL instance 
 
-- SSH into EC2 instance from local directory 
-```zsh
-etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
-```
 
 EC2 instance directory: 
 ```tree
@@ -116,11 +122,7 @@ ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com:8080
 ```
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/e1413536-c95a-4a72-a79c-ad792fc085c4)
 
-Airflow DAG consisting of 3 tasks: 
-![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
 
-All tasks successfully executed:
-![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
 
 
 
