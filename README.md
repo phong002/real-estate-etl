@@ -41,10 +41,12 @@
 - Define tasks using Airflow operators (e.g. PythonOperator) and setting up task dependencies
 - Pass data between tasks using XCom (cross-communication) 
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
-- Configure DAG scheduling options (e.g. to execute every 24 hours) 
+- Configure DAG scheduling options (e.g. to execute every 24 hours)
+- Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. starting at boot, restarting in case of failures)
 
 ## Limitations 
-- webscraping instead of api
+- The process of extracting data from its source by webscraping is not ideal. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
+- 
   
 
 
