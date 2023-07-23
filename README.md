@@ -28,7 +28,28 @@
 
 
 ## At a glance
-- 
+### Connecting to EC2 instance via SSH and activating virtual environment
+```zsh
+etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
+```
+![image](https://github.com/phong002/real-estate-etl/assets/47654096/fb1e3389-c280-4054-a798-8561fb36e49f)
+
+### Starting Airflow webserver/scheduler
+![image](https://github.com/phong002/real-estate-etl/assets/47654096/a1fd5321-9002-4dec-8c60-6f120ef10ce9)
+
+### Airflow DAG consisting of 3 tasks: 
+![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
+
+### All tasks successfully executed:
+![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
+
+### Connecting to postgres in Tableau:
+![image](https://github.com/phong002/real-estate-etl/assets/47654096/f9bb0088-6a8f-4ac2-9f7e-a32bf41a057e)
+
+### Listings table:
+![image](https://github.com/phong002/real-estate-etl/assets/47654096/98ae3c92-bbe0-4bb0-8cf0-b7813c01c27c)
+
+
  
 ## Things I learned to do
 ### AWS 
@@ -54,27 +75,6 @@
 
 
 
-
-## Walkthrough 
-- Create EC2 and RDS PostgreSQL instance
-  
-- SSH into the EC2 instance
-```zsh
-etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
-```
-
-
-Airflow DAG consisting of 3 tasks: 
-![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
-
-All tasks successfully executed:
-![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
-
-Access Airflow UI by entering the instance's public endpoint followed with :8080 into a web browser 
-```
-ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com:8080
-```
-![image](https://github.com/phong002/webscrape-project/assets/47654096/e1413536-c95a-4a72-a79c-ad792fc085c4)
 
 
 
