@@ -12,19 +12,19 @@
 
 ## Methodology
 
-- **Project Setup**: The first step involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the webscraping and data processing tasks.
+1) **Project Setup**: The first step involved setting up an AWS EC2 instance to host the entire ETL project. The EC2 instance provides a scalable and flexible computing environment for running the webscraping and data processing tasks.
 
-- **Web Scraping**: Using Python and its webscraping libraries (BeautifulSoup), rental listing data was extracted from rent.com.au. The web scraping process involved fetching web pages, parsing HTML content, and extracting relevant data, such as property locations, number of rooms, and prices.
+2) **Web Scraping**: Using Python and its webscraping libraries (BeautifulSoup), rental listing data was extracted from rent.com.au. The web scraping process involved fetching web pages, parsing HTML content, and extracting relevant data, such as property locations, number of rooms, and prices.
   
-- **Data Transformation**: After web scraping, the raw data was transformed in Python to convert it into a structured and usable format. Data transformation tasks included handling missing values, standardising data types and performing any necessary data manipulations to ensure consistency and accuracy.
+3) **Data Transformation**: After web scraping, the raw data was transformed in Python to convert it into a structured and usable format. Data transformation tasks included handling missing values, standardising data types and performing any necessary data manipulations to ensure consistency and accuracy.
   
-- **Database Setup**: An AWS RDS PostgreSQL database was created to store the webscraped real estate data. As an AWS-managed service, the RDS PostgreSQL database provides a reliable and scalable solution for storing structured data and enables efficient querying and analysis.
+4) **Database Setup**: An AWS RDS PostgreSQL database was created to store the webscraped real estate data. As an AWS-managed service, the RDS PostgreSQL database provides a reliable and scalable solution for storing structured data and enables efficient querying and analysis.
 
-- **Data Loading**: The transformed data was loaded into the PostgreSQL database. This process involved connecting to the database from Python and inserting the cleaned and structured data into the appropriate table.
+5) **Data Loading**: The transformed data was loaded into the PostgreSQL database. This process involved connecting to the database from Python and inserting the cleaned and structured data into the appropriate table.
 
-- **Data Visualisation**: A connection with the RDS PostgreSQL database was setup in Tableau to create visualisations. 
+6) **Data Visualisation**: A connection with the RDS PostgreSQL database was setup in Tableau to create visualisations. 
 
-- **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.
+7) **Automation with Apache Airflow**: The entire ETL pipeline was automated using Apache Airflow. Airflow allows for the definition of tasks and dependencies, enabling the scheduling and execution of the web scraping, data transformation, and data loading tasks at specified intervals. The scheduling ensured that the ETL pipeline ran automatically, fetching new data from rent.com.au and updating the PostgreSQL database with the latest information.
 
 
 ## At a glance
@@ -47,7 +47,7 @@
 - Pass data between tasks using XCom (cross-communication) 
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
 - Configure DAG scheduling options (e.g. to execute every 24 hours)
-- Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. starting at boot, restarting in case of failures)
+- Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. start at boot, restart in case of failures)
 
 ## Limitations 
 - The process of extracting data by means of webscraping is not viable as a long-term solution. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
