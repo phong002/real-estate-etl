@@ -28,7 +28,7 @@
 
 
 ## At a glance
-- screenshots of notable parts of project
+- 
  
 ## Things I learned to do
 ### AWS 
@@ -50,7 +50,7 @@
 - Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. start at boot, restart in case of failures)
 
 ## Limitations 
-- The process of extracting data by means of webscraping is not viable as a long-term solution. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
+- The process of extracting data by means of webscraping is not viable in the long-term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
 
 
 
@@ -63,18 +63,6 @@
 etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
 ```
 
-
-EC2 instance directory: 
-```tree
-ubuntu@ip-172-31-34-219
-├── airflow       
-│   ├── dags
-│   │   └── real_estate_etl_dag.py
-│   ├── airflow.cfg        
-│   ├── airflow.db  
-│   └── ...  
-└── venv                               
-```
 
 Airflow DAG consisting of 3 tasks: 
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
