@@ -49,6 +49,10 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 ### Listings table
 ![255391640-98ae3c92-bbe0-4bb0-8cf0-b7813c01c27c](https://github.com/phong002/real-estate-etl/assets/47654096/559567a6-a5d0-4918-8d24-7c1ff1d0dc66)
 
+### Dashboard
+![image](https://github.com/phong002/real-estate-etl/assets/47654096/5843de6b-3aca-4d7f-8a8f-077e52ff4202)
+
+
 
  
 ## Things I learned to do
