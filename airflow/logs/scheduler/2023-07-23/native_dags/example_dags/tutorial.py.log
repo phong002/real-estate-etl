@@ -7740,3 +7740,24 @@
 [2023-07-23T09:22:52.368+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:22:52.368+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-07-23T09:22:52.429+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:22:52.429+0000] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-07-22T09:22:52.428946+00:00, run_after=2023-07-23T09:22:52.428946+00:00
 [2023-07-23T09:22:52.462+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.319 seconds
+[2023-07-23T09:43:18.151+0000] {processor.py:153} INFO - Started process (PID=445381) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:18.152+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-07-23T09:43:18.153+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:18.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:18.180+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:18.282+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:18.282+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T09:43:18.312+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:18.312+0000] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-07-22T09:43:18.312201+00:00, run_after=2023-07-23T09:43:18.312201+00:00
+[2023-07-23T09:43:18.345+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.199 seconds
+[2023-07-23T09:43:48.987+0000] {processor.py:153} INFO - Started process (PID=445624) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:48.988+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-07-23T09:43:48.989+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:48.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:49.013+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:43:49.078+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:49.078+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T09:43:49.111+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:43:49.111+0000] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-07-22T09:43:49.110834+00:00, run_after=2023-07-23T09:43:49.110834+00:00
+[2023-07-23T09:43:49.156+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.173 seconds
+[2023-07-23T09:44:19.428+0000] {processor.py:153} INFO - Started process (PID=445868) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:44:19.429+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-07-23T09:44:19.430+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:44:19.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:44:19.449+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-07-23T09:44:19.515+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:44:19.515+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T09:44:19.547+0000] {logging_mixin.py:137} INFO - [2023-07-23T09:44:19.547+0000] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-07-22T09:44:19.547342+00:00, run_after=2023-07-23T09:44:19.547342+00:00
+[2023-07-23T09:44:19.572+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.148 seconds
