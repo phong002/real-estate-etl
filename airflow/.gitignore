@@ -7,3 +7,5 @@ airflow-webserver.err
 airflow-webserver.log
 airflow-webserver.out
 airflow-webserver.pid
+webserver_config.py
+logs
