@@ -37,16 +37,16 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 ### Starting Airflow webserver/scheduler
 ![image](https://github.com/phong002/real-estate-etl/assets/47654096/a1fd5321-9002-4dec-8c60-6f120ef10ce9)
 
-### Airflow DAG consisting of 3 tasks: 
+### Airflow DAG consisting of 3 tasks
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
 
-### All tasks successfully executed:
+### All tasks successfully executed
 ![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
 
-### Connecting to postgres in Tableau:
+### Connecting to postgres in Tableau
 ![image](https://github.com/phong002/real-estate-etl/assets/47654096/f9bb0088-6a8f-4ac2-9f7e-a32bf41a057e)
 
-### Listings table:
+### Listings table
 ![image](https://github.com/phong002/real-estate-etl/assets/47654096/98ae3c92-bbe0-4bb0-8cf0-b7813c01c27c)
 
 
@@ -72,6 +72,8 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 
 ## Limitations 
 - The process of extracting data by means of webscraping is not viable in the long-term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
+
+- Tableau's live dashboard can only be viewed by authenticated users, while Tableau Public dashboards cannot establish live database connections. Therefore, only a snapshot of the dashboard is shown. 
 
 
 
