@@ -7757,3 +7757,304 @@
 [2023-07-23T10:41:31.491+0000] {logging_mixin.py:137} INFO - [2023-07-23T10:41:31.491+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-07-23T10:41:31.530+0000] {logging_mixin.py:137} INFO - [2023-07-23T10:41:31.530+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
 [2023-07-23T10:41:31.549+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.532 seconds
+[2023-07-23T11:04:05.497+0000] {processor.py:153} INFO - Started process (PID=482871) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:05.498+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:04:05.499+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:05.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:06.103+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:06.153+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:06.153+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:04:06.182+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:06.182+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:04:06.205+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.715 seconds
+[2023-07-23T11:04:36.275+0000] {processor.py:153} INFO - Started process (PID=483113) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:36.277+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:04:36.277+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:36.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:36.716+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:04:36.755+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:36.755+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:04:36.775+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:04:36.775+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:04:36.791+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.521 seconds
+[2023-07-23T11:05:07.545+0000] {processor.py:153} INFO - Started process (PID=483351) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:07.546+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:05:07.547+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:07.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:08.054+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:08.101+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:08.101+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:05:08.132+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:08.132+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:05:08.154+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.613 seconds
+[2023-07-23T11:05:38.290+0000] {processor.py:153} INFO - Started process (PID=483589) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:38.292+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:05:38.293+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:38.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:38.802+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:05:38.840+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:38.840+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:05:38.865+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:05:38.865+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:05:38.880+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.595 seconds
+[2023-07-23T11:06:09.238+0000] {processor.py:153} INFO - Started process (PID=483824) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:09.240+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:06:09.241+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:09.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:09.869+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:09.909+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:09.908+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:06:09.927+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:09.927+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:06:09.943+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.713 seconds
+[2023-07-23T11:06:40.124+0000] {processor.py:153} INFO - Started process (PID=484060) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:40.126+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:06:40.127+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:40.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:40.716+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:06:40.773+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:40.773+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:06:40.803+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:06:40.803+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:06:40.822+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.717 seconds
+[2023-07-23T11:07:11.649+0000] {processor.py:153} INFO - Started process (PID=484301) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:11.650+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:07:11.651+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:11.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:12.271+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:12.354+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:12.354+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:07:12.376+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:12.376+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:07:12.392+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.749 seconds
+[2023-07-23T11:07:43.260+0000] {processor.py:153} INFO - Started process (PID=484549) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:43.261+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:07:43.262+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:43.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:43.737+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:07:43.776+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:43.775+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:07:43.798+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:07:43.798+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:07:43.815+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.559 seconds
+[2023-07-23T11:08:13.952+0000] {processor.py:153} INFO - Started process (PID=484796) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:13.953+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:08:13.954+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:13.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:14.360+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:14.400+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:14.400+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:08:14.421+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:14.421+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:08:14.438+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.490 seconds
+[2023-07-23T11:08:44.648+0000] {processor.py:153} INFO - Started process (PID=485020) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:44.651+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:08:44.652+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:44.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:45.245+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:08:45.284+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:45.284+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:08:45.307+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:08:45.307+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:08:45.323+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.680 seconds
+[2023-07-23T11:09:15.497+0000] {processor.py:153} INFO - Started process (PID=485255) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:15.498+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:09:15.499+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:15.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:16.077+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:16.118+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:16.118+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:09:16.139+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:16.139+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:09:16.155+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.662 seconds
+[2023-07-23T11:09:46.751+0000] {processor.py:153} INFO - Started process (PID=485497) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:46.759+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:09:46.760+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:46.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:47.279+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:09:47.317+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:47.317+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:09:47.338+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:09:47.338+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:09:47.355+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.608 seconds
+[2023-07-23T11:10:18.246+0000] {processor.py:153} INFO - Started process (PID=485739) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:18.247+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:10:18.247+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:18.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:18.709+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:18.750+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:18.750+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:10:18.769+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:18.769+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:10:18.783+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.542 seconds
+[2023-07-23T11:10:48.895+0000] {processor.py:153} INFO - Started process (PID=485975) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:48.898+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:10:48.899+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:48.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:49.332+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:10:49.373+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:49.372+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:10:49.392+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:10:49.392+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:10:49.409+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.517 seconds
+[2023-07-23T11:11:20.386+0000] {processor.py:153} INFO - Started process (PID=486217) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:20.387+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:11:20.388+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:20.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:20.786+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:20.824+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:20.823+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:11:20.842+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:20.842+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:11:20.856+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.473 seconds
+[2023-07-23T11:11:51.771+0000] {processor.py:153} INFO - Started process (PID=486452) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:51.772+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:11:51.772+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:51.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:52.241+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:11:52.286+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:52.286+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:11:52.308+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:11:52.308+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:11:52.323+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.555 seconds
+[2023-07-23T11:12:23.259+0000] {processor.py:153} INFO - Started process (PID=486688) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:23.260+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:12:23.261+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:23.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:23.706+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:23.749+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:23.749+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:12:23.770+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:23.770+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:12:23.802+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.546 seconds
+[2023-07-23T11:12:54.069+0000] {processor.py:153} INFO - Started process (PID=486924) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:54.070+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:12:54.070+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:54.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:54.496+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:12:54.551+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:54.551+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:12:54.570+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:12:54.570+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:12:54.585+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.521 seconds
+[2023-07-23T11:13:24.620+0000] {processor.py:153} INFO - Started process (PID=487159) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:24.621+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:13:24.622+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:24.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:25.028+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:25.071+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:25.071+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:13:25.106+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:25.106+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:13:25.124+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.508 seconds
+[2023-07-23T11:13:55.187+0000] {processor.py:153} INFO - Started process (PID=487395) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:55.194+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:13:55.194+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:55.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:55.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:13:55.682+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:55.682+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:13:55.703+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:13:55.703+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:13:55.718+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.534 seconds
+[2023-07-23T11:14:25.862+0000] {processor.py:153} INFO - Started process (PID=487630) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:25.863+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:14:25.864+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:25.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:26.260+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:26.299+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:26.299+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:14:26.318+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:26.318+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:14:26.333+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.475 seconds
+[2023-07-23T11:14:57.246+0000] {processor.py:153} INFO - Started process (PID=487866) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:57.247+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:14:57.248+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:57.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:57.715+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:14:57.767+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:57.767+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:14:57.786+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:14:57.786+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:14:57.801+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.560 seconds
+[2023-07-23T11:15:27.975+0000] {processor.py:153} INFO - Started process (PID=488106) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:27.976+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:15:27.977+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:27.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:28.374+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:28.416+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:28.416+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:15:28.435+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:28.435+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:15:28.451+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.479 seconds
+[2023-07-23T11:15:59.153+0000] {processor.py:153} INFO - Started process (PID=488342) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:59.154+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:15:59.155+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:59.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:59.576+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:15:59.614+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:59.614+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:15:59.634+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:15:59.634+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:15:59.649+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.502 seconds
+[2023-07-23T11:16:29.711+0000] {processor.py:153} INFO - Started process (PID=488577) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:16:29.712+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:16:29.713+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:16:29.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:16:30.153+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:16:30.196+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:16:30.195+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:16:30.216+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:16:30.216+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:16:30.233+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.525 seconds
+[2023-07-23T11:17:01.073+0000] {processor.py:153} INFO - Started process (PID=488813) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:01.074+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:17:01.075+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:01.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:01.595+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:01.686+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:01.686+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:17:01.737+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:01.736+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:17:01.781+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.712 seconds
+[2023-07-23T11:17:32.296+0000] {processor.py:153} INFO - Started process (PID=489051) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:32.298+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:17:32.300+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:32.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:32.945+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:17:32.997+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:32.997+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:17:33.023+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:17:33.023+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:17:33.051+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.762 seconds
+[2023-07-23T11:18:03.216+0000] {processor.py:153} INFO - Started process (PID=489291) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:03.218+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:18:03.219+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:03.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:03.774+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:03.813+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:03.813+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:18:03.840+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:03.840+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:18:03.859+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.648 seconds
+[2023-07-23T11:18:34.001+0000] {processor.py:153} INFO - Started process (PID=489522) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:34.004+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:18:34.005+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:34.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:34.601+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:18:34.661+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:34.661+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:18:34.696+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:18:34.696+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:18:34.717+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.721 seconds
+[2023-07-23T11:19:05.558+0000] {processor.py:153} INFO - Started process (PID=489764) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:05.559+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:19:05.560+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:05.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:06.086+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:06.125+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:06.125+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:19:06.148+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:06.148+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:19:06.167+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.614 seconds
+[2023-07-23T11:19:36.215+0000] {processor.py:153} INFO - Started process (PID=490009) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:36.216+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:19:36.217+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:36.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:36.634+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:19:36.673+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:36.673+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:19:36.701+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:19:36.701+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:19:36.719+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.508 seconds
+[2023-07-23T11:20:07.432+0000] {processor.py:153} INFO - Started process (PID=490247) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:07.433+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:20:07.434+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:07.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:07.861+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:07.900+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:07.900+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:20:07.921+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:07.920+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:20:07.937+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.509 seconds
+[2023-07-23T11:20:38.135+0000] {processor.py:153} INFO - Started process (PID=490486) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:38.135+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:20:38.136+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:38.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:38.575+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:20:38.624+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:38.624+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:20:38.652+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:20:38.652+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:20:38.673+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.543 seconds
+[2023-07-23T11:21:09.259+0000] {processor.py:153} INFO - Started process (PID=490722) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:09.260+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:21:09.261+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:09.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:09.655+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:09.695+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:09.695+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:21:09.716+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:09.716+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:21:09.730+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.475 seconds
+[2023-07-23T11:21:40.180+0000] {processor.py:153} INFO - Started process (PID=490957) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:40.181+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:21:40.181+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:40.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:40.605+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:21:40.651+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:40.651+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:21:40.685+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:21:40.685+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:21:40.703+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.527 seconds
+[2023-07-23T11:22:10.844+0000] {processor.py:153} INFO - Started process (PID=491193) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:10.845+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:22:10.846+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:10.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:11.294+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:11.341+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:11.341+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:22:11.359+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:11.359+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:22:11.374+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.535 seconds
+[2023-07-23T11:22:42.194+0000] {processor.py:153} INFO - Started process (PID=491428) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:42.195+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:22:42.196+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:42.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:42.755+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:22:42.813+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:42.813+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:22:42.842+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:22:42.842+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:22:42.864+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.674 seconds
+[2023-07-23T11:23:13.444+0000] {processor.py:153} INFO - Started process (PID=491664) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:13.446+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:23:13.446+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:13.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:14.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:14.154+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:14.154+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:23:14.201+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:14.201+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:23:14.217+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.776 seconds
+[2023-07-23T11:23:44.536+0000] {processor.py:153} INFO - Started process (PID=491900) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:44.538+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:23:44.538+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:44.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:45.058+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:23:45.096+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:45.096+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:23:45.118+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:23:45.118+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:23:45.135+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.603 seconds
+[2023-07-23T11:24:15.274+0000] {processor.py:153} INFO - Started process (PID=492135) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:15.277+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:24:15.278+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:15.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:15.903+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:15.952+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:15.952+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:24:15.979+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:15.979+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:24:15.996+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.727 seconds
+[2023-07-23T11:24:46.036+0000] {processor.py:153} INFO - Started process (PID=492386) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:46.038+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:24:46.039+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:46.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:46.613+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:24:46.670+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:46.670+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:24:46.704+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:24:46.704+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:24:46.727+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.698 seconds
+[2023-07-23T11:25:17.020+0000] {processor.py:153} INFO - Started process (PID=492627) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:17.022+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:25:17.022+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:17.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:17.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:17.642+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:17.641+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:25:17.671+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:17.671+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:25:17.691+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.677 seconds
+[2023-07-23T11:25:47.844+0000] {processor.py:153} INFO - Started process (PID=492875) to work on /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:47.845+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/real_estate_etl_dag.py for tasks to queue
+[2023-07-23T11:25:47.846+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:47.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:48.411+0000] {processor.py:753} INFO - DAG(s) dict_keys(['real_estate_etl_dag']) retrieved from /home/ubuntu/airflow/dags/real_estate_etl_dag.py
+[2023-07-23T11:25:48.475+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:48.475+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-23T11:25:48.497+0000] {logging_mixin.py:137} INFO - [2023-07-23T11:25:48.497+0000] {dag.py:3423} INFO - Setting next_dagrun for real_estate_etl_dag to 2023-07-22T20:05:06.697330+00:00, run_after=2023-07-23T20:05:06.697330+00:00
+[2023-07-23T11:25:48.513+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/real_estate_etl_dag.py took 0.674 seconds
