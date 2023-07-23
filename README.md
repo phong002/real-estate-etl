@@ -1,6 +1,6 @@
 # Real Estate ETL Project with AWS EC2, RDS PostgreSQL, Apache Airflow
 
-![image](https://github.com/phong002/webscrape-project/assets/47654096/5b971b67-7c4e-4f70-8c33-4d22de261d44)
+![ETL-Flowchart](https://github.com/phong002/real-estate-etl/assets/47654096/6dbd3ab4-cd32-4a4b-9f2e-ddac311190a0)
 
 ## Description 
 - The purpose of this project was to develop an automated, scalable extract, transform and load (ETL) pipeline to facilitate the end-to-end flow of data from its source into a database, allowing up-to-date data to be queried for data analysis and visualisation.
@@ -32,22 +32,22 @@
 ```zsh
 etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeast-2.compute.amazonaws.com
 ```
-![image](https://github.com/phong002/real-estate-etl/assets/47654096/fb1e3389-c280-4054-a798-8561fb36e49f)
+![255392484-fb1e3389-c280-4054-a798-8561fb36e49f](https://github.com/phong002/real-estate-etl/assets/47654096/09f5092f-502d-4277-b136-f604d685f03b)
 
 ### Starting Airflow webserver/scheduler
-![image](https://github.com/phong002/real-estate-etl/assets/47654096/a1fd5321-9002-4dec-8c60-6f120ef10ce9)
+![255392961-a1fd5321-9002-4dec-8c60-6f120ef10ce9](https://github.com/phong002/real-estate-etl/assets/47654096/3ffced5f-f0bf-4a61-9c1b-91dcd240d520)
 
 ### Airflow DAG consisting of 3 tasks
-![image](https://github.com/phong002/webscrape-project/assets/47654096/86fbf2bd-6c14-4849-a39e-e9adbb260e5d)
+![254183208-86fbf2bd-6c14-4849-a39e-e9adbb260e5d](https://github.com/phong002/real-estate-etl/assets/47654096/860e6fef-b1d9-4938-8216-fad98ca4abf7)
 
 ### All tasks when successfully executed
-![image](https://github.com/phong002/webscrape-project/assets/47654096/87e585f0-a431-4ada-8b31-cc1e6d85b3d6)
+![254185671-87e585f0-a431-4ada-8b31-cc1e6d85b3d6](https://github.com/phong002/real-estate-etl/assets/47654096/d491e360-c82b-46ab-8674-d2775d5eceeb)
 
 ### Connecting to postgres in Tableau
-![image](https://github.com/phong002/real-estate-etl/assets/47654096/f9bb0088-6a8f-4ac2-9f7e-a32bf41a057e)
+![255391861-f9bb0088-6a8f-4ac2-9f7e-a32bf41a057e](https://github.com/phong002/real-estate-etl/assets/47654096/c3370f1f-fd96-4a51-adc5-20792280b265)
 
 ### Listings table
-![image](https://github.com/phong002/real-estate-etl/assets/47654096/98ae3c92-bbe0-4bb0-8cf0-b7813c01c27c)
+![255391640-98ae3c92-bbe0-4bb0-8cf0-b7813c01c27c](https://github.com/phong002/real-estate-etl/assets/47654096/559567a6-a5d0-4918-8d24-7c1ff1d0dc66)
 
 
  
@@ -71,6 +71,8 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 - Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. start at boot, restart in case of failures)
 
 ## Limitations 
+- Since the tasks are relatively infrequent, services such as AWS Glue may be more cost-effective since they are pay-per-use, as opposed to EC2 which has fixed costs regardless of usage. 
+  
 - The process of extracting data by means of webscraping is not viable in the long-term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
 
 - Tableau's live dashboard can only be viewed by authenticated users, while Tableau Public dashboards cannot establish live database connections. Therefore, only a snapshot of the dashboard is shown. 
