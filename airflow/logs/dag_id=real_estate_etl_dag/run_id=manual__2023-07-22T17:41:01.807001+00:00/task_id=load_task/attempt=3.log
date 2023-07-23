@@ -1,0 +1,56 @@
+[2023-07-22T17:51:08.242+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: real_estate_etl_dag.load_task manual__2023-07-22T17:41:01.807001+00:00 [queued]>
+[2023-07-22T17:51:08.257+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: real_estate_etl_dag.load_task manual__2023-07-22T17:41:01.807001+00:00 [queued]>
+[2023-07-22T17:51:08.257+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-22T17:51:08.257+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 4
+[2023-07-22T17:51:08.257+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-22T17:51:08.283+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): load_task> on 2023-07-22 17:41:01.807001+00:00
+[2023-07-22T17:51:08.290+0000] {standard_task_runner.py:55} INFO - Started process 1722 to run task
+[2023-07-22T17:51:08.297+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'real_estate_etl_dag', 'load_task', 'manual__2023-07-22T17:41:01.807001+00:00', '--job-id', '249', '--raw', '--subdir', 'DAGS_FOLDER/real_estate_etl_dag.py', '--cfg-path', '/tmp/tmpbd67y5c1']
+[2023-07-22T17:51:08.299+0000] {standard_task_runner.py:83} INFO - Job 249: Subtask load_task
+[2023-07-22T17:51:08.555+0000] {task_command.py:389} INFO - Running <TaskInstance: real_estate_etl_dag.load_task manual__2023-07-22T17:41:01.807001+00:00 [running]> on host ip-172-31-34-219.ap-southeast-2.compute.internal
+[2023-07-22T17:51:08.837+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=real_estate_etl_dag
+AIRFLOW_CTX_TASK_ID=load_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-22T17:41:01.807001+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-22T17:41:01.807001+00:00
+[2023-07-22T17:51:08.838+0000] {logging_mixin.py:137} INFO - SHELL = /bin/bash
+[2023-07-22T17:51:08.838+0000] {logging_mixin.py:137} INFO - PWD = /
+[2023-07-22T17:51:08.838+0000] {logging_mixin.py:137} INFO - LOGNAME = ubuntu
+[2023-07-22T17:51:08.838+0000] {logging_mixin.py:137} INFO - SYSTEMD_EXEC_PID = 785
+[2023-07-22T17:51:08.838+0000] {logging_mixin.py:137} INFO - HOME = /home/ubuntu
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - LANG = C.UTF-8
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - VIRTUAL_ENV = /home/ubuntu/venv
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - INVOCATION_ID = 02f35b489a11447c996211b9412b8df2
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - USER = ubuntu
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - SHLVL = 1
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - VIRTUAL_ENV_PROMPT = (venv) 
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - PS1 = (venv) 
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - JOURNAL_STREAM = 8:17782
+[2023-07-22T17:51:08.839+0000] {logging_mixin.py:137} INFO - PATH = /home/ubuntu/venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - _ = /home/ubuntu/venv/bin/***
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - _AIRFLOW_PARSING_CONTEXT_DAG_ID = real_estate_etl_dag
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - _AIRFLOW_PARSING_CONTEXT_TASK_ID = load_task
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_DAG_OWNER = ***
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_DAG_ID = real_estate_etl_dag
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_TASK_ID = load_task
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_EXECUTION_DATE = 2023-07-22T17:41:01.807001+00:00
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_TRY_NUMBER = 3
+[2023-07-22T17:51:08.840+0000] {logging_mixin.py:137} INFO - AIRFLOW_CTX_DAG_RUN_ID = manual__2023-07-22T17:41:01.807001+00:00
+[2023-07-22T17:51:08.870+0000] {logging_mixin.py:137} INFO - Error connecting to the database: connection to server at "real-estate-db.czvpezojzuuw.ap-southeast-2.rds.amazonaws.com" (172.31.48.42), port 5432 failed: fe_sendauth: no password supplied
+[2023-07-22T17:51:08.870+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/ubuntu/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ubuntu/airflow/dags/real_estate_etl_dag.py", line 110, in load_to_rds
+    cursor = conn.cursor()
+UnboundLocalError: local variable 'conn' referenced before assignment
+[2023-07-22T17:51:08.959+0000] {taskinstance.py:1322} INFO - Marking task as UP_FOR_RETRY. dag_id=real_estate_etl_dag, task_id=load_task, execution_date=20230722T174101, start_date=20230722T175108, end_date=20230722T175108
+[2023-07-22T17:51:08.989+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 249 for task load_task (local variable 'conn' referenced before assignment; 1722)
+[2023-07-22T17:51:09.034+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-07-22T17:51:09.171+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

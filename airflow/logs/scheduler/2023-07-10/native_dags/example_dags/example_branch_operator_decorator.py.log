@@ -1,0 +1,21 @@
+[2023-07-10T04:34:26.011+0000] {processor.py:153} INFO - Started process (PID=1605) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:26.012+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-07-10T04:34:26.013+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:26.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:26.053+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:26.121+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:26.121+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:34:26.162+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:26.162+0000] {dag.py:3423} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-07-09T00:00:00+00:00, run_after=2023-07-10T00:00:00+00:00
+[2023-07-10T04:34:26.185+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.179 seconds
+[2023-07-10T04:34:56.891+0000] {processor.py:153} INFO - Started process (PID=1856) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:56.893+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-07-10T04:34:56.893+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:56.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:56.966+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:34:57.076+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:57.075+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:34:57.111+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:57.110+0000] {dag.py:3423} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-07-09T00:00:00+00:00, run_after=2023-07-10T00:00:00+00:00
+[2023-07-10T04:34:57.136+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.256 seconds
+[2023-07-10T04:35:27.861+0000] {processor.py:153} INFO - Started process (PID=2118) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:35:27.862+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-07-10T04:35:27.863+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:27.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:35:27.905+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-07-10T04:35:27.973+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:27.973+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:35:28.011+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:28.010+0000] {dag.py:3423} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-07-09T00:00:00+00:00, run_after=2023-07-10T00:00:00+00:00
+[2023-07-10T04:35:28.049+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.192 seconds

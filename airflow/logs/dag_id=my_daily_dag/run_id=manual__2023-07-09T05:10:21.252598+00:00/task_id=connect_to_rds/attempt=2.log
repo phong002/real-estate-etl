@@ -1,0 +1,24 @@
+[2023-07-09T16:47:19.200+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_daily_dag.connect_to_rds manual__2023-07-09T05:10:21.252598+00:00 [queued]>
+[2023-07-09T16:47:19.249+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_daily_dag.connect_to_rds manual__2023-07-09T05:10:21.252598+00:00 [queued]>
+[2023-07-09T16:47:19.249+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-09T16:47:19.249+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 4
+[2023-07-09T16:47:19.249+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-09T16:47:19.315+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): connect_to_rds> on 2023-07-09 05:10:21.252598+00:00
+[2023-07-09T16:47:19.329+0000] {standard_task_runner.py:55} INFO - Started process 3572 to run task
+[2023-07-09T16:47:19.351+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'my_daily_dag', 'connect_to_rds', 'manual__2023-07-09T05:10:21.252598+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpdhqtug86']
+[2023-07-09T16:47:19.356+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask connect_to_rds
+[2023-07-09T16:47:19.685+0000] {task_command.py:389} INFO - Running <TaskInstance: my_daily_dag.connect_to_rds manual__2023-07-09T05:10:21.252598+00:00 [running]> on host ip-172-31-34-219.ap-southeast-2.compute.internal
+[2023-07-09T16:47:19.952+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=my_daily_dag
+AIRFLOW_CTX_TASK_ID=connect_to_rds
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-09T05:10:21.252598+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-09T05:10:21.252598+00:00
+[2023-07-09T16:47:20.045+0000] {logging_mixin.py:137} INFO - Connection to the database successful!
+[2023-07-09T16:47:20.046+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-07-09T16:47:20.091+0000] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=my_daily_dag, task_id=connect_to_rds, execution_date=20230709T051021, start_date=20230709T164719, end_date=20230709T164720
+[2023-07-09T16:47:20.130+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-07-09T16:47:20.213+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

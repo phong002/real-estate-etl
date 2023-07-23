@@ -1,0 +1,32 @@
+[2023-07-09T16:59:56.125+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_daily_dag.create_rds_table manual__2023-07-09T16:47:35.609153+00:00 [queued]>
+[2023-07-09T16:59:56.139+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_daily_dag.create_rds_table manual__2023-07-09T16:47:35.609153+00:00 [queued]>
+[2023-07-09T16:59:56.139+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-09T16:59:56.140+0000] {taskinstance.py:1284} INFO - Starting attempt 3 of 4
+[2023-07-09T16:59:56.140+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-09T16:59:56.163+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_rds_table> on 2023-07-09 16:47:35.609153+00:00
+[2023-07-09T16:59:56.180+0000] {standard_task_runner.py:55} INFO - Started process 8111 to run task
+[2023-07-09T16:59:56.199+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'my_daily_dag', 'create_rds_table', 'manual__2023-07-09T16:47:35.609153+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp08ysa19k']
+[2023-07-09T16:59:56.206+0000] {standard_task_runner.py:83} INFO - Job 23: Subtask create_rds_table
+[2023-07-09T16:59:56.507+0000] {task_command.py:389} INFO - Running <TaskInstance: my_daily_dag.create_rds_table manual__2023-07-09T16:47:35.609153+00:00 [running]> on host ip-172-31-34-219.ap-southeast-2.compute.internal
+[2023-07-09T16:59:56.844+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=my_daily_dag
+AIRFLOW_CTX_TASK_ID=create_rds_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-09T16:47:35.609153+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-09T16:47:35.609153+00:00
+[2023-07-09T16:59:56.936+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/ubuntu/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ubuntu/airflow/dags/first_dag.py", line 51, in create_rds_table
+    cursor = conn.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[2023-07-09T16:59:57.043+0000] {taskinstance.py:1322} INFO - Marking task as UP_FOR_RETRY. dag_id=my_daily_dag, task_id=create_rds_table, execution_date=20230709T164735, start_date=20230709T165956, end_date=20230709T165957
+[2023-07-09T16:59:57.094+0000] {standard_task_runner.py:100} ERROR - Failed to execute job 23 for task create_rds_table ('NoneType' object has no attribute 'cursor'; 8111)
+[2023-07-09T16:59:57.137+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-07-09T16:59:57.282+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,205 @@
+[2023-07-09T15:46:33.474+0000] {processor.py:153} INFO - Started process (PID=1312) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:46:33.475+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T15:46:33.476+0000] {logging_mixin.py:137} INFO - [2023-07-09T15:46:33.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:46:33.478+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:46:33.518+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2023-07-09T15:47:04.195+0000] {processor.py:153} INFO - Started process (PID=1550) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:04.196+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T15:47:04.197+0000] {logging_mixin.py:137} INFO - [2023-07-09T15:47:04.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:04.199+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:04.245+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2023-07-09T15:47:34.307+0000] {processor.py:153} INFO - Started process (PID=1781) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:34.308+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T15:47:34.309+0000] {logging_mixin.py:137} INFO - [2023-07-09T15:47:34.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:34.310+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:47:34.362+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.061 seconds
+[2023-07-09T15:49:52.163+0000] {processor.py:153} INFO - Started process (PID=2133) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:49:52.165+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T15:49:52.166+0000] {logging_mixin.py:137} INFO - [2023-07-09T15:49:52.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:49:52.168+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:49:52.218+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.060 seconds
+[2023-07-09T15:50:23.265+0000] {processor.py:153} INFO - Started process (PID=2367) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:50:23.266+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T15:50:23.268+0000] {logging_mixin.py:137} INFO - [2023-07-09T15:50:23.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:50:23.273+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T15:50:23.321+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.060 seconds
+[2023-07-09T16:47:15.646+0000] {processor.py:153} INFO - Started process (PID=3430) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:15.648+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:47:15.649+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:47:15.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:15.651+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:15.694+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.053 seconds
+[2023-07-09T16:47:46.977+0000] {processor.py:153} INFO - Started process (PID=3798) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:46.978+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:47:46.979+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:47:46.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:46.982+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:47:47.028+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2023-07-09T16:48:17.391+0000] {processor.py:153} INFO - Started process (PID=4026) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:17.392+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:48:17.393+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:48:17.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:17.395+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:17.444+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.060 seconds
+[2023-07-09T16:48:48.014+0000] {processor.py:153} INFO - Started process (PID=4257) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:48.015+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:48:48.016+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:48:48.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:48.018+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:48:48.066+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2023-07-09T16:49:19.060+0000] {processor.py:153} INFO - Started process (PID=4497) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:19.062+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:49:19.062+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:49:19.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:19.064+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:19.106+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.050 seconds
+[2023-07-09T16:49:49.603+0000] {processor.py:153} INFO - Started process (PID=4736) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:49.604+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:49:49.605+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:49:49.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:49.607+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:49:49.645+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.047 seconds
+[2023-07-09T16:50:20.264+0000] {processor.py:153} INFO - Started process (PID=4971) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:20.266+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:50:20.266+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:50:20.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:20.268+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:20.327+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.066 seconds
+[2023-07-09T16:50:50.913+0000] {processor.py:153} INFO - Started process (PID=5204) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:50.914+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:50:50.915+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:50:50.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:50.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:50:50.969+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.064 seconds
+[2023-07-09T16:54:52.479+0000] {processor.py:153} INFO - Started process (PID=5708) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:54:52.483+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:54:52.484+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:54:52.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:54:52.490+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:54:52.631+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.159 seconds
+[2023-07-09T16:55:22.753+0000] {processor.py:153} INFO - Started process (PID=6001) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:22.754+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:55:22.755+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:55:22.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:22.757+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:22.803+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2023-07-09T16:55:54.179+0000] {processor.py:153} INFO - Started process (PID=6238) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:54.181+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:55:54.181+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:55:54.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:54.184+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:55:54.230+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2023-07-09T16:56:25.399+0000] {processor.py:153} INFO - Started process (PID=6479) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:25.400+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:56:25.402+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:56:25.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:25.404+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:25.447+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2023-07-09T16:56:56.044+0000] {processor.py:153} INFO - Started process (PID=6735) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:56.046+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:56:56.047+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:56:56.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:56.049+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:56:56.103+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.066 seconds
+[2023-07-09T16:57:26.890+0000] {processor.py:153} INFO - Started process (PID=6965) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:26.892+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:57:26.893+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:57:26.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:26.895+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:26.938+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2023-07-09T16:57:58.061+0000] {processor.py:153} INFO - Started process (PID=7206) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:58.063+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:57:58.064+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:57:58.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:58.067+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:57:58.114+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2023-07-09T16:58:29.111+0000] {processor.py:153} INFO - Started process (PID=7441) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:29.113+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:58:29.114+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:58:29.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:29.115+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:29.157+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.050 seconds
+[2023-07-09T16:58:59.641+0000] {processor.py:153} INFO - Started process (PID=7672) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:59.643+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:58:59.644+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:58:59.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:59.646+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:58:59.693+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2023-07-09T16:59:30.221+0000] {processor.py:153} INFO - Started process (PID=7911) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:59:30.222+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T16:59:30.223+0000] {logging_mixin.py:137} INFO - [2023-07-09T16:59:30.223+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:59:30.225+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T16:59:30.260+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2023-07-09T17:00:02.015+0000] {processor.py:153} INFO - Started process (PID=8274) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:02.026+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:00:02.027+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:00:02.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:02.035+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:02.322+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.344 seconds
+[2023-07-09T17:00:30.416+0000] {processor.py:153} INFO - Started process (PID=8568) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:30.417+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:00:30.419+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:00:30.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:30.421+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:00:30.463+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2023-07-09T17:01:01.600+0000] {processor.py:153} INFO - Started process (PID=8837) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:01.604+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:01:01.609+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:01:01.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:01.621+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:01.735+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.147 seconds
+[2023-07-09T17:01:32.674+0000] {processor.py:153} INFO - Started process (PID=9072) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:32.675+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:01:32.676+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:01:32.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:32.679+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:01:32.735+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.067 seconds
+[2023-07-09T17:02:03.460+0000] {processor.py:153} INFO - Started process (PID=9328) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:03.462+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:02:03.463+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:02:03.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:03.465+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:03.515+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.060 seconds
+[2023-07-09T17:02:34.576+0000] {processor.py:153} INFO - Started process (PID=9565) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:34.577+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:02:34.578+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:02:34.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:34.580+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:02:34.626+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2023-07-09T17:03:05.111+0000] {processor.py:153} INFO - Started process (PID=9800) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:05.113+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:03:05.113+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:03:05.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:05.116+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:05.180+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.074 seconds
+[2023-07-09T17:03:35.834+0000] {processor.py:153} INFO - Started process (PID=10030) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:35.836+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:03:35.838+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:03:35.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:35.845+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:03:35.898+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.068 seconds
+[2023-07-09T17:04:06.668+0000] {processor.py:153} INFO - Started process (PID=10266) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:06.669+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:04:06.670+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:04:06.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:06.672+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:06.717+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2023-07-09T17:04:37.278+0000] {processor.py:153} INFO - Started process (PID=10501) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:37.280+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:04:37.280+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:04:37.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:37.282+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:04:37.328+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2023-07-09T17:05:57.545+0000] {processor.py:153} INFO - Started process (PID=10993) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:05:57.557+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:05:57.557+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:05:57.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:05:57.566+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:05:57.737+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.197 seconds
+[2023-07-09T17:06:28.310+0000] {processor.py:153} INFO - Started process (PID=11331) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:06:28.311+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:06:28.312+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:06:28.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:06:28.314+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:06:28.356+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2023-07-09T17:07:25.994+0000] {processor.py:153} INFO - Started process (PID=11799) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:25.997+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:07:25.998+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:07:25.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:26.000+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:26.086+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.097 seconds
+[2023-07-09T17:07:56.398+0000] {processor.py:153} INFO - Started process (PID=12067) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:56.399+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:07:56.400+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:07:56.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:56.402+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:07:56.457+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.064 seconds
+[2023-07-09T17:08:27.416+0000] {processor.py:153} INFO - Started process (PID=12303) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:08:27.418+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:08:27.418+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:08:27.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:08:27.420+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:08:27.465+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.053 seconds
+[2023-07-09T17:09:05.748+0000] {processor.py:153} INFO - Started process (PID=12760) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:05.749+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:09:05.750+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:09:05.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:05.753+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:05.804+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.062 seconds
+[2023-07-09T17:09:36.235+0000] {processor.py:153} INFO - Started process (PID=13034) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:36.236+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:09:36.237+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:09:36.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:36.239+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:09:36.290+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.061 seconds
+[2023-07-09T17:10:06.922+0000] {processor.py:153} INFO - Started process (PID=13269) to work on /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:10:06.926+0000] {processor.py:743} INFO - Processing file /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-07-09T17:10:06.927+0000] {logging_mixin.py:137} INFO - [2023-07-09T17:10:06.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:10:06.931+0000] {processor.py:755} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-07-09T17:10:07.035+0000] {processor.py:175} INFO - Processing /home/ubuntu/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.123 seconds

@@ -1,0 +1,28 @@
+[2023-07-10T04:34:14.233+0000] {processor.py:153} INFO - Started process (PID=1259) to work on /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:14.239+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/first_dag.py for tasks to queue
+[2023-07-10T04:34:14.240+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:14.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:17.508+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_daily_dag']) retrieved from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:17.715+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:17.714+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:34:17.858+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:17.858+0000] {dag.py:3423} INFO - Setting next_dagrun for my_daily_dag to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T04:34:17.989+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/first_dag.py took 3.760 seconds
+[2023-07-10T04:34:48.101+0000] {processor.py:153} INFO - Started process (PID=1680) to work on /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:48.103+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/first_dag.py for tasks to queue
+[2023-07-10T04:34:48.104+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:48.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:48.677+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_daily_dag']) retrieved from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:34:48.749+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:48.749+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:34:48.776+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:34:48.776+0000] {dag.py:3423} INFO - Setting next_dagrun for my_daily_dag to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T04:34:48.802+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/first_dag.py took 0.715 seconds
+[2023-07-10T04:35:19.624+0000] {processor.py:153} INFO - Started process (PID=1952) to work on /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:19.626+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/first_dag.py for tasks to queue
+[2023-07-10T04:35:19.627+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:19.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:20.155+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_daily_dag']) retrieved from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:20.208+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:20.207+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:35:20.243+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:20.243+0000] {dag.py:3423} INFO - Setting next_dagrun for my_daily_dag to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T04:35:20.260+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/first_dag.py took 0.641 seconds
+[2023-07-10T04:35:51.256+0000] {processor.py:153} INFO - Started process (PID=2197) to work on /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:51.259+0000] {processor.py:743} INFO - Processing file /home/ubuntu/airflow/dags/first_dag.py for tasks to queue
+[2023-07-10T04:35:51.260+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:51.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:51.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['my_daily_dag']) retrieved from /home/ubuntu/airflow/dags/first_dag.py
+[2023-07-10T04:35:52.053+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:52.053+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-07-10T04:35:52.169+0000] {logging_mixin.py:137} INFO - [2023-07-10T04:35:52.169+0000] {dag.py:3423} INFO - Setting next_dagrun for my_daily_dag to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T04:35:52.325+0000] {processor.py:175} INFO - Processing /home/ubuntu/airflow/dags/first_dag.py took 1.076 seconds
