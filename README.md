@@ -1,4 +1,4 @@
-# Real Estate ETL Project with AWS EC2, RDS PostgreSQL, Apache Airflow
+# Real Estate ETL Project with AWS EC2, AWS RDS PostgreSQL, Apache Airflow
 
 ![ETL-Flowchart](https://github.com/phong002/real-estate-etl/assets/47654096/6dbd3ab4-cd32-4a4b-9f2e-ddac311190a0)
 
