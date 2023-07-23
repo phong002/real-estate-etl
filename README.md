@@ -75,7 +75,7 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
   
 - The process of extracting data by means of webscraping is not viable in the long-term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers.
 
-- Tableau's live dashboard can only be viewed by authenticated users, while Tableau Public dashboards cannot establish live database connections. Therefore, only a snapshot of the dashboard is shown. 
+- Tableau's live dashboard can only be viewed by authenticated users, while Tableau Public dashboards cannot establish live database connections. Therefore, only a snapshot of the dashboard is provided. 
 
 
 
