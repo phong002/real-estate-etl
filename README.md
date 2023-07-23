@@ -77,7 +77,7 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 ## Limitations 
 - Since the tasks are relatively infrequent, services such as AWS Glue may be more cost-effective since they are pay-per-use, as opposed to EC2 which has fixed costs regardless of usage. 
   
-- The process of extracting data by means of webscraping is not viable in the long term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers. The use of APIs would be more reliable and secure as a long-term solution. 
+- The process of extracting data by means of webscraping is not viable in the long term. Apart from ethical considerations, websites can change their HTML structure over time, which would cause the webscraper to fail since it relies on specific element identifiers. The use of supported APIs would be more reliable and secure as a long-term solution. 
 
 - Tableau's live dashboard can only be viewed by authenticated users, while Tableau Public dashboards cannot establish live database connections. Therefore, only a snapshot of the dashboard is provided. 
 
