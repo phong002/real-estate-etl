@@ -73,6 +73,8 @@ etl_project % ssh -i "real-estate-key-pair.pem" ubuntu@ec2-3-26-47-6.ap-southeas
 - Define a Directed Acyclic Graph (DAG) which contains the collection of tasks to be run
 - Configure DAG scheduling options (e.g. to execute every 24 hours)
 - Configure systemd unit files to enable airflow webserver/scheduler to run continuously in the EC2 instance (ie. start at boot, restart in case of failures)
+### Misc
+- Operate within Linux environment 
 
 ## Limitations 
 - Since the tasks are relatively infrequent, services such as AWS Glue may be more cost-effective since they are pay-per-use, as opposed to EC2 which has fixed costs regardless of usage. 
